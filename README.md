@@ -1,5 +1,7 @@
-# What is BOR?
-BOR (Basics of Roblox) is an small git repository which contains very basic level of roblox related scripting.
+# Basic Modules
+- In this branch I'll explain the basics of modules, Which is also considered to be the most useful feature in roblox
 
-# Contributors
-Publisher @ ItzMrRatsP [Twitter](https://x.com/ItzMrRatsP) | [Roblox](roblox.com/users/2536605621/profile)
+# What benefits module have?
+- Reusability of functions and variables
+- Replacement of "shared" and "_G"
+- Single script architectures and more
