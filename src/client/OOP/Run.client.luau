@@ -1,13 +1,16 @@
--- Client
+--[[
+@run: client
+@name: Run.client.luau
+@author: ItzMrRatsP
+--]]
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local OOP = require(ReplicatedStorage.Modules.OOP)
 
---[[
-@description: This will call the constructor class and create an class. 
-]]
-local OOP = require(ReplicatedStorage.Modules.OOP).new()
+-- These are the methods
+local firstMethod = OOP.new()
+local secondMethod = OOP.newAgain()
 
---[[
-@description: This will print our creation date, The one we set in the constructor function.
-]]
-print(OOP:getCreationDate())
+-- Printing out both creation date
+print(firstMethod:getCreationDate())
+print(secondMethod:getCreationDate())
