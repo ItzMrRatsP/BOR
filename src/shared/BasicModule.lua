@@ -10,7 +10,7 @@
 local basicModule = {}
 basicModule.isEnabled = false
 
--- {isEnabled = false} -> {isEnabled = true}
+-- {isEnabled = false} <-> {isEnabled = true}
 function basicModule.toggle()
 	basicModule.isEnabled = not basicModule.isEnabled
 end
