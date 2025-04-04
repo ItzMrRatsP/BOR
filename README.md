@@ -2,7 +2,7 @@
 BOR (Basics of Roblox) is an small git repository which contains very basic level of roblox related scripting.
 
 # Branches
-Click on branches and search for what you trying to learn, There might be some good explaination on what you trying to learn
+Click on branches and search for what you trying to learn, There might be some good explaination on what you trying to learn.
 
 ![Branches](Branches.gif)
 
